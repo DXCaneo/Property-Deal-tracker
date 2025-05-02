@@ -33,3 +33,35 @@ A simple and powerful web application to help property investors and real estate
 git clone https://github.com/yourusername/property-deal-tracker.git
 cd property-deal-tracker
 npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## 🌐 Deployment
+
+This app is optimized for [Vercel](https://vercel.com):
+
+1. Upload the code to a GitHub repo
+2. Go to [vercel.com](https://vercel.com) and import the repo
+3. Deploy instantly
+
+## 📁 Project Structure
+
+```
+/app/page.tsx         → Main application
+/components/ui/       → UI Components (Card, Input, Button, Select)
+/package.json          → Project config and dependencies
+/tsconfig.json         → TypeScript configuration
+/next.config.js        → Next.js settings
+```
+
+## 👤 Author
+
+Dan Christian Caneo  
+Built with ❤️ for property investors and real estate professionals
